@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Agri Reach
+
+  Created by Kiran on 19/04/22.
+  
+*/
+"NEXT" = "अगला";
+"Home" = "होम";
+"Reports" = "रिपोर्टों";
+"Upload" = "डालना";
+"Orders" = "आदेश";
+"Profile" = "प्रोफ़ाइल";
+"Subscriptions" = "सदस्यता";
+"Transactions" = "लेनदेन";
+"Mandi Prices" = "मंडी कीमतें";
+"My Profile" = "मेरी प्रोफाइल";
+"Settings" = "सेटिंग";
+"Logout" = "लॉग आउट";
+"Language" = "भाषा";
+"Cancel" = "रद्द करें";
+"Select a language" = "भाषा चुनें";

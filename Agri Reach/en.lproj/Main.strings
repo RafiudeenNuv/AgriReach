@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "5jJ-7a-JRD"; */
+"5jJ-7a-JRD.text" = "Profile";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "86X-kq-x89"; */
+"86X-kq-x89.title" = "Profile";
+
+/* Class = "UILabel"; text = "Upload"; ObjectID = "8I4-Rb-WJb"; */
+"8I4-Rb-WJb.text" = "Upload";
+
+/* Class = "UITabBarItem"; title = "Upload"; ObjectID = "Iio-jU-R3D"; */
+"Iio-jU-R3D.title" = "Upload";
+
+/* Class = "UILabel"; text = "Reports"; ObjectID = "O6O-Ek-AYt"; */
+"O6O-Ek-AYt.text" = "Reports";
+
+/* Class = "UIButton"; normalTitle = "NEXT  "; ObjectID = "Xy4-ZI-hCn"; */
+"Xy4-ZI-hCn.normalTitle" = "NEXT  ";
+
+/* Class = "UITabBarItem"; title = "Orders"; ObjectID = "Zr6-TL-MfZ"; */
+"Zr6-TL-MfZ.title" = "Orders";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "aja-vw-GCu"; */
+"aja-vw-GCu.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "Orders"; ObjectID = "eC3-WS-v3u"; */
+"eC3-WS-v3u.text" = "Orders";
+
+/* Class = "UINavigationItem"; title = "AgriReach"; ObjectID = "iTr-ZO-huY"; */
+"iTr-ZO-huY.title" = "AgriReach";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "p8o-ly-qDn"; */
+"p8o-ly-qDn.title" = "Home";
+
+/* Class = "UILabel"; text = "AgriReach"; ObjectID = "riR-ba-Ypg"; */
+"riR-ba-Ypg.text" = "AgriReach";
+
+/* Class = "UILabel"; text = "HOME"; ObjectID = "uHK-Uc-g0t"; */
+"uHK-Uc-g0t.text" = "HOME";
+
+/* Class = "UITabBarItem"; title = "Reports"; ObjectID = "znC-YP-olP"; */
+"znC-YP-olP.title" = "Reports";

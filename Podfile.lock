@@ -1,0 +1,25 @@
+PODS:
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - SKCountryPicker (2.0.0)
+
+DEPENDENCIES:
+  - Localize-Swift (~> 3.2)
+  - SKCountryPicker (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Localize-Swift
+    - SKCountryPicker
+
+SPEC CHECKSUMS:
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  SKCountryPicker: 9d4921503cad7224a14a150802bb71228adbd90f
+
+PODFILE CHECKSUM: 9028972a3df5708c8b6e50dcf9640a671e289e0d
+
+COCOAPODS: 1.10.1
