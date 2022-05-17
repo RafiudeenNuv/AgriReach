@@ -8,82 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Walk ThroughVC-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController storyboardIdentifier="WalkThroughVC" id="BYZ-38-t0r" customClass="WalkThroughVC" customModule="Agri_Reach" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NcZ-Qn-oNA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iUV-pG-ODd">
-                                    <size key="itemSize" width="128" height="128"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells/>
-                            </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aja-vw-GCu">
-                                <rect key="frame" x="30" y="798" width="39" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="SKIP">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="skip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pjx-ZO-IxB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eso-MQ-q7a">
-                                <rect key="frame" x="338" y="798" width="46" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="NEXT">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rgG-XD-S9B"/>
-                                </connections>
-                            </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ekd-KA-Mhe" customClass="CustomPageControl" customModule="Agri_Reach" customModuleProvider="target">
-                                <rect key="frame" x="132" y="801" width="150" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="wf9-pH-YsY"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="currentPageImage" value="Shape 1"/>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="otherPagesImage" value="Shape 2"/>
-                                </userDefinedRuntimeAttributes>
-                            </pageControl>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aja-vw-GCu" secondAttribute="bottom" constant="30" id="09a-Ug-2kZ"/>
-                            <constraint firstItem="NcZ-Qn-oNA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5BI-RZ-Q9s"/>
-                            <constraint firstItem="ekd-KA-Mhe" firstAttribute="centerY" secondItem="eso-MQ-q7a" secondAttribute="centerY" id="FIK-BD-4Oo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eso-MQ-q7a" secondAttribute="trailing" constant="30" id="FmY-VD-hoS"/>
-                            <constraint firstAttribute="bottom" secondItem="NcZ-Qn-oNA" secondAttribute="bottom" id="GEU-c3-F3E"/>
-                            <constraint firstItem="ekd-KA-Mhe" firstAttribute="centerX" secondItem="NcZ-Qn-oNA" secondAttribute="centerX" id="H6q-b1-1Xm"/>
-                            <constraint firstItem="aja-vw-GCu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="SVh-Za-cYI"/>
-                            <constraint firstItem="NcZ-Qn-oNA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Sdl-TV-GlP"/>
-                            <constraint firstItem="ekd-KA-Mhe" firstAttribute="centerY" secondItem="aja-vw-GCu" secondAttribute="centerY" id="ZfE-OU-yPN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eso-MQ-q7a" secondAttribute="bottom" constant="30" id="bzd-46-TTc"/>
-                            <constraint firstItem="NcZ-Qn-oNA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gEb-Mm-M7G"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ekd-KA-Mhe" secondAttribute="bottom" constant="33" id="guL-zV-kfS"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="colView" destination="NcZ-Qn-oNA" id="5Ks-I6-LgZ"/>
-                        <outlet property="pageControl" destination="ekd-KA-Mhe" id="bob-9B-hEu"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="140.57971014492756" y="64.955357142857139"/>
-        </scene>
         <!--SettingVC-->
         <scene sceneID="BQS-Ic-Xjd">
             <objects>
@@ -177,8 +101,6 @@
     </designables>
     <resources>
         <image name="Left Iocn" width="32" height="32"/>
-        <image name="Shape 1" width="22" height="5"/>
-        <image name="Shape 2" width="5" height="5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

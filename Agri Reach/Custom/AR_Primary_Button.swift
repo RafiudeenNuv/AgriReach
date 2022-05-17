@@ -7,15 +7,28 @@
 
 import UIKit
 
-class AR_Primary_Button: UIButton {
-    override func draw(_ rect: CGRect) {
-        self.layer.cornerRadius = self.frame.height / 2
+ final class AR_Primary_Button: UIButton {
+
+
+    required init?(coder aDecoder: NSCoder) {
+       super.init(coder: aDecoder)
+        setup()
+
     }
 
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        setup()
+    }
+
+    func setup() {
+        self.applyButtonShadow(color: UIColor.primaryColor , offSet: CGSize(width: -1, height: 1),radius : 20, cornorRadius: self.frame.height / 2,backgroundColor : .primaryColor)
+
+    }
 }
 
 
-class AR_Shadow_view: UIView{
+final class AR_Shadow_view: UIView{
     
     override func draw(_ rect: CGRect) {
         self.applyShadow(color: UIColor.primaryColor , offSet: CGSize(width: -1, height: 1),radius : 5, cornorRadius: 40)

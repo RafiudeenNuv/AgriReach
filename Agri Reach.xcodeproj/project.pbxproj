@@ -12,6 +12,13 @@
 		9F254162281A668500443C65 /* SelectApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F254161281A668500443C65 /* SelectApplicationVC.swift */; };
 		9F254168281A700100443C65 /* QC_Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F254167281A700100443C65 /* QC_Home.storyboard */; };
 		9F25416D281A771200443C65 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F25416C281A771200443C65 /* Tab.swift */; };
+		9F2D693D282535CC00FAA593 /* ReferralCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D693C282535CC00FAA593 /* ReferralCodeVC.swift */; };
+		9F39171C282A3F8D00AD2DE1 /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F39171B282A3F8D00AD2DE1 /* EmailVC.swift */; };
+		9F39171F282A416C00AD2DE1 /* AR_Shadow_View_with_Round_Cornor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F39171E282A416C00AD2DE1 /* AR_Shadow_View_with_Round_Cornor.swift */; };
+		9F391722282A4F3B00AD2DE1 /* AadhaarVerification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F391721282A4F3B00AD2DE1 /* AadhaarVerification.storyboard */; };
+		9F391726282A533000AD2DE1 /* AadhaarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F391725282A533000AD2DE1 /* AadhaarVC.swift */; };
+		9F391729282A5CDC00AD2DE1 /* AadharOtpVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F391728282A5CDC00AD2DE1 /* AadharOtpVerificationVC.swift */; };
+		9F39172C282A5EA600AD2DE1 /* AR_Shadow_View_Cornor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F39172B282A5EA600AD2DE1 /* AR_Shadow_View_Cornor.swift */; };
 		9F5E0FB72800051D00DDFC7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E0FB62800051D00DDFC7D /* AppDelegate.swift */; };
 		9F5E0FB92800051D00DDFC7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E0FB82800051D00DDFC7D /* SceneDelegate.swift */; };
 		9F5E0FBB2800051D00DDFC7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E0FBA2800051D00DDFC7D /* ViewController.swift */; };
@@ -34,11 +41,46 @@
 		9F9A0BDF2817CFFA0092B9AE /* AR-Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A0BDE2817CFFA0092B9AE /* AR-Extension+View.swift */; };
 		9F9A0BE22817D2490092B9AE /* AR-Extenstion+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A0BE12817D2490092B9AE /* AR-Extenstion+Storyboard.swift */; };
 		9F9A0BE72817E1A40092B9AE /* AR-Extenstion+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9A0BE62817E1A30092B9AE /* AR-Extenstion+UIColor.swift */; };
+		9FA2476B282CFA8F00BEA3A7 /* AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2476A282CFA8F00BEA3A7 /* AddressVC.swift */; };
+		9FA2476F282CFACA00BEA3A7 /* AddressListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2476D282CFACA00BEA3A7 /* AddressListCell.swift */; };
+		9FA24770282CFACA00BEA3A7 /* AddressListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA2476E282CFACA00BEA3A7 /* AddressListCell.xib */; };
+		9FACC4DB282B7E040024284B /* AadhaarVerificationSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACC4DA282B7E040024284B /* AadhaarVerificationSuccessVC.swift */; };
+		9FACC4DE282B85FF0024284B /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FACC4DD282B85FF0024284B /* UserProfile.storyboard */; };
+		9FACC4E1282B89830024284B /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FACC4E0282B89830024284B /* UserProfileVC.swift */; };
 		9FB9236528238E1800A30B85 /* AR_Primary_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9236428238E1800A30B85 /* AR_Primary_Button.swift */; };
 		9FB923692823939400A30B85 /* AR-Extension+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB923682823939400A30B85 /* AR-Extension+Button.swift */; };
 		9FD2579F2822688E00D9AF45 /* ChooseLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD2579E2822688E00D9AF45 /* ChooseLanguageVC.swift */; };
 		9FD257A728226B4F00D9AF45 /* LanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD257A528226B4F00D9AF45 /* LanguageCell.swift */; };
 		9FD257A828226B4F00D9AF45 /* LanguageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD257A628226B4F00D9AF45 /* LanguageCell.xib */; };
+		9FE25468282E1CEC006321CD /* UserNameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE25467282E1CEC006321CD /* UserNameLabel.swift */; };
+		9FE2546B282E1E2A006321CD /* AR-Extension+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2546A282E1E2A006321CD /* AR-Extension+Font.swift */; };
+		9FE2546D282E23DB006321CD /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8D988280D67BD009E8438 /* Mulish-Regular.ttf */; };
+		9FE2546E282E23DB006321CD /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8D98C280D67E5009E8438 /* Mulish-Bold.ttf */; };
+		9FE2546F282E23DB006321CD /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8D98A280D67D4009E8438 /* Mulish-Medium.ttf */; };
+		9FE25470282E23DB006321CD /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8D98B280D67DD009E8438 /* Mulish-Light.ttf */; };
+		9FE25471282E23DB006321CD /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F9A0BE42817DCF50092B9AE /* Mulish-ExtraBold.ttf */; };
+		9FE25472282E23DB006321CD /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8D989280D67C5009E8438 /* Mulish-SemiBold.ttf */; };
+		9FE25483282E27E0006321CD /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2547B282E26B4006321CD /* Poppins-Black.ttf */; };
+		9FE25484282E27E0006321CD /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE25482282E26B7006321CD /* Poppins-Bold.ttf */; };
+		9FE25485282E27E0006321CD /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2547E282E26B5006321CD /* Poppins-ExtraBold.ttf */; };
+		9FE25486282E27E0006321CD /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE25480282E26B6006321CD /* Poppins-ExtraLight.ttf */; };
+		9FE25487282E27E0006321CD /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2547C282E26B4006321CD /* Poppins-Light.ttf */; };
+		9FE25488282E27E0006321CD /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2547A282E26B3006321CD /* Poppins-Medium.ttf */; };
+		9FE25489282E27E0006321CD /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2547F282E26B6006321CD /* Poppins-Regular.ttf */; };
+		9FE2548A282E27E0006321CD /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2547D282E26B5006321CD /* Poppins-SemiBold.ttf */; };
+		9FE2548B282E27E0006321CD /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FE25481282E26B6006321CD /* Poppins-Thin.ttf */; };
+		9FE2548E282E2EF1006321CD /* HeadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE2548D282E2EF1006321CD /* HeadingLabel.swift */; };
+		9FE25491282E3154006321CD /* SubtitleLightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE25490282E3154006321CD /* SubtitleLightLabel.swift */; };
+		9FE539282832216000C77570 /* MemberInvite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE539272832216000C77570 /* MemberInvite.storyboard */; };
+		9FE5392C283224D800C77570 /* MemberInviteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5392B283224D800C77570 /* MemberInviteVC.swift */; };
+		9FE53930283233B300C77570 /* MemberInviteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5392E283233B300C77570 /* MemberInviteCell.swift */; };
+		9FE53931283233B300C77570 /* MemberInviteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE5392F283233B300C77570 /* MemberInviteCell.xib */; };
+		9FE53935283362EF00C77570 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE53933283362EE00C77570 /* DropDownCell.swift */; };
+		9FE53936283362EF00C77570 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE53934283362EE00C77570 /* DropDownCell.xib */; };
+		9FE539392833643000C77570 /* AddMemberInviteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE539382833642F00C77570 /* AddMemberInviteVC.swift */; };
+		9FE539402833837600C77570 /* SubcriptionPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5393E2833837600C77570 /* SubcriptionPlanCell.swift */; };
+		9FE539412833837600C77570 /* SubcriptionPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FE5393F2833837600C77570 /* SubcriptionPlanCell.xib */; };
+		9FE5394628338FBA00C77570 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5394528338FBA00C77570 /* UPCarouselFlowLayout.swift */; };
 		9FF8D97B280D649E009E8438 /* WalkThroughVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8D97A280D649E009E8438 /* WalkThroughVC.swift */; };
 		9FF8D982280D6504009E8438 /* WalkThroughCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8D980280D6504009E8438 /* WalkThroughCell.swift */; };
 		9FF8D983280D6504009E8438 /* WalkThroughCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8D981280D6504009E8438 /* WalkThroughCell.xib */; };
@@ -58,6 +100,13 @@
 		9F254161281A668500443C65 /* SelectApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectApplicationVC.swift; sourceTree = "<group>"; };
 		9F254167281A700100443C65 /* QC_Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QC_Home.storyboard; sourceTree = "<group>"; };
 		9F25416C281A771200443C65 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		9F2D693C282535CC00FAA593 /* ReferralCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferralCodeVC.swift; sourceTree = "<group>"; };
+		9F39171B282A3F8D00AD2DE1 /* EmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
+		9F39171E282A416C00AD2DE1 /* AR_Shadow_View_with_Round_Cornor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Shadow_View_with_Round_Cornor.swift; sourceTree = "<group>"; };
+		9F391721282A4F3B00AD2DE1 /* AadhaarVerification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AadhaarVerification.storyboard; sourceTree = "<group>"; };
+		9F391725282A533000AD2DE1 /* AadhaarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AadhaarVC.swift; sourceTree = "<group>"; };
+		9F391728282A5CDC00AD2DE1 /* AadharOtpVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AadharOtpVerificationVC.swift; sourceTree = "<group>"; };
+		9F39172B282A5EA600AD2DE1 /* AR_Shadow_View_Cornor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Shadow_View_Cornor.swift; sourceTree = "<group>"; };
 		9F5E0FB32800051D00DDFC7D /* Agri Reach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agri Reach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5E0FB62800051D00DDFC7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F5E0FB82800051D00DDFC7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,11 +135,40 @@
 		9F9A0BE12817D2490092B9AE /* AR-Extenstion+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AR-Extenstion+Storyboard.swift"; sourceTree = "<group>"; };
 		9F9A0BE42817DCF50092B9AE /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-ExtraBold.ttf"; sourceTree = "<group>"; };
 		9F9A0BE62817E1A30092B9AE /* AR-Extenstion+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AR-Extenstion+UIColor.swift"; sourceTree = "<group>"; };
+		9FA2476A282CFA8F00BEA3A7 /* AddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressVC.swift; sourceTree = "<group>"; };
+		9FA2476D282CFACA00BEA3A7 /* AddressListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListCell.swift; sourceTree = "<group>"; };
+		9FA2476E282CFACA00BEA3A7 /* AddressListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressListCell.xib; sourceTree = "<group>"; };
+		9FACC4DA282B7E040024284B /* AadhaarVerificationSuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AadhaarVerificationSuccessVC.swift; sourceTree = "<group>"; };
+		9FACC4DD282B85FF0024284B /* UserProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
+		9FACC4E0282B89830024284B /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
 		9FB9236428238E1800A30B85 /* AR_Primary_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Primary_Button.swift; sourceTree = "<group>"; };
 		9FB923682823939400A30B85 /* AR-Extension+Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AR-Extension+Button.swift"; sourceTree = "<group>"; };
 		9FD2579E2822688E00D9AF45 /* ChooseLanguageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLanguageVC.swift; sourceTree = "<group>"; };
 		9FD257A528226B4F00D9AF45 /* LanguageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCell.swift; sourceTree = "<group>"; };
 		9FD257A628226B4F00D9AF45 /* LanguageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LanguageCell.xib; sourceTree = "<group>"; };
+		9FE25467282E1CEC006321CD /* UserNameLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameLabel.swift; sourceTree = "<group>"; };
+		9FE2546A282E1E2A006321CD /* AR-Extension+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AR-Extension+Font.swift"; sourceTree = "<group>"; };
+		9FE2547A282E26B3006321CD /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		9FE2547B282E26B4006321CD /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		9FE2547C282E26B4006321CD /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		9FE2547D282E26B5006321CD /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		9FE2547E282E26B5006321CD /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9FE2547F282E26B6006321CD /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		9FE25480282E26B6006321CD /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9FE25481282E26B6006321CD /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		9FE25482282E26B7006321CD /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		9FE2548D282E2EF1006321CD /* HeadingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingLabel.swift; sourceTree = "<group>"; };
+		9FE25490282E3154006321CD /* SubtitleLightLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleLightLabel.swift; sourceTree = "<group>"; };
+		9FE539272832216000C77570 /* MemberInvite.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemberInvite.storyboard; sourceTree = "<group>"; };
+		9FE5392B283224D800C77570 /* MemberInviteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberInviteVC.swift; sourceTree = "<group>"; };
+		9FE5392E283233B300C77570 /* MemberInviteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberInviteCell.swift; sourceTree = "<group>"; };
+		9FE5392F283233B300C77570 /* MemberInviteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberInviteCell.xib; sourceTree = "<group>"; };
+		9FE53933283362EE00C77570 /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		9FE53934283362EE00C77570 /* DropDownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		9FE539382833642F00C77570 /* AddMemberInviteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemberInviteVC.swift; sourceTree = "<group>"; };
+		9FE5393E2833837600C77570 /* SubcriptionPlanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcriptionPlanCell.swift; sourceTree = "<group>"; };
+		9FE5393F2833837600C77570 /* SubcriptionPlanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubcriptionPlanCell.xib; sourceTree = "<group>"; };
+		9FE5394528338FBA00C77570 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
 		9FF8D97A280D649E009E8438 /* WalkThroughVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughVC.swift; sourceTree = "<group>"; };
 		9FF8D980280D6504009E8438 /* WalkThroughCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughCell.swift; sourceTree = "<group>"; };
 		9FF8D981280D6504009E8438 /* WalkThroughCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalkThroughCell.xib; sourceTree = "<group>"; };
@@ -155,9 +233,10 @@
 		9F5E0FB52800051D00DDFC7D /* Agri Reach */ = {
 			isa = PBXGroup;
 			children = (
+				9FE5394428338F9C00C77570 /* Supporting Class */,
 				9FB9236328238DA000A30B85 /* Custom */,
 				9F9A0BD22817CBFF0092B9AE /* Common */,
-				9F9A0BCF2817CB1E0092B9AE /* Utilites */,
+				9F9A0BCF2817CB1E0092B9AE /* Utilities */,
 				9F9A0BCA2817CAA70092B9AE /* Trading */,
 				9F9A0BC42817CA4A0092B9AE /* Listing */,
 				9F9A0BBF2817C9BD0092B9AE /* QC */,
@@ -319,15 +398,16 @@
 			path = "Trading-Controller";
 			sourceTree = "<group>";
 		};
-		9F9A0BCF2817CB1E0092B9AE /* Utilites */ = {
+		9F9A0BCF2817CB1E0092B9AE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				9F9A0BDE2817CFFA0092B9AE /* AR-Extension+View.swift */,
 				9F9A0BE12817D2490092B9AE /* AR-Extenstion+Storyboard.swift */,
 				9F9A0BE62817E1A30092B9AE /* AR-Extenstion+UIColor.swift */,
 				9FB923682823939400A30B85 /* AR-Extension+Button.swift */,
+				9FE2546A282E1E2A006321CD /* AR-Extension+Font.swift */,
 			);
-			path = Utilites;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		9F9A0BD02817CB760092B9AE /* Xib */ = {
@@ -378,6 +458,15 @@
 				9FD2579E2822688E00D9AF45 /* ChooseLanguageVC.swift */,
 				9FFC9BB52823AF2E009A6F84 /* VerificationVC.swift */,
 				9FFC9BB82823E6CF009A6F84 /* LocationEnableVC.swift */,
+				9F2D693C282535CC00FAA593 /* ReferralCodeVC.swift */,
+				9F39171B282A3F8D00AD2DE1 /* EmailVC.swift */,
+				9F391725282A533000AD2DE1 /* AadhaarVC.swift */,
+				9F391728282A5CDC00AD2DE1 /* AadharOtpVerificationVC.swift */,
+				9FACC4DA282B7E040024284B /* AadhaarVerificationSuccessVC.swift */,
+				9FACC4E0282B89830024284B /* UserProfileVC.swift */,
+				9FA2476A282CFA8F00BEA3A7 /* AddressVC.swift */,
+				9FE5392B283224D800C77570 /* MemberInviteVC.swift */,
+				9FE539382833642F00C77570 /* AddMemberInviteVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -388,6 +477,9 @@
 				9F9A0BD72817CC4D0092B9AE /* Xib */,
 				9F9A0BD82817CC640092B9AE /* Authentication.storyboard */,
 				9F25415E281A646800443C65 /* Home.storyboard */,
+				9F391721282A4F3B00AD2DE1 /* AadhaarVerification.storyboard */,
+				9FACC4DD282B85FF0024284B /* UserProfile.storyboard */,
+				9FE539272832216000C77570 /* MemberInvite.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -397,6 +489,14 @@
 			children = (
 				9FD257A528226B4F00D9AF45 /* LanguageCell.swift */,
 				9FD257A628226B4F00D9AF45 /* LanguageCell.xib */,
+				9FA2476D282CFACA00BEA3A7 /* AddressListCell.swift */,
+				9FA2476E282CFACA00BEA3A7 /* AddressListCell.xib */,
+				9FE5392E283233B300C77570 /* MemberInviteCell.swift */,
+				9FE5392F283233B300C77570 /* MemberInviteCell.xib */,
+				9FE53933283362EE00C77570 /* DropDownCell.swift */,
+				9FE53934283362EE00C77570 /* DropDownCell.xib */,
+				9FE5393E2833837600C77570 /* SubcriptionPlanCell.swift */,
+				9FE5393F2833837600C77570 /* SubcriptionPlanCell.xib */,
 			);
 			path = Xib;
 			sourceTree = "<group>";
@@ -405,8 +505,37 @@
 			isa = PBXGroup;
 			children = (
 				9FB9236428238E1800A30B85 /* AR_Primary_Button.swift */,
+				9F39171E282A416C00AD2DE1 /* AR_Shadow_View_with_Round_Cornor.swift */,
+				9F39172B282A5EA600AD2DE1 /* AR_Shadow_View_Cornor.swift */,
+				9FE25467282E1CEC006321CD /* UserNameLabel.swift */,
+				9FE2548D282E2EF1006321CD /* HeadingLabel.swift */,
+				9FE25490282E3154006321CD /* SubtitleLightLabel.swift */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		9FE25479282E269A006321CD /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2547B282E26B4006321CD /* Poppins-Black.ttf */,
+				9FE25482282E26B7006321CD /* Poppins-Bold.ttf */,
+				9FE2547E282E26B5006321CD /* Poppins-ExtraBold.ttf */,
+				9FE25480282E26B6006321CD /* Poppins-ExtraLight.ttf */,
+				9FE2547C282E26B4006321CD /* Poppins-Light.ttf */,
+				9FE2547A282E26B3006321CD /* Poppins-Medium.ttf */,
+				9FE2547F282E26B6006321CD /* Poppins-Regular.ttf */,
+				9FE2547D282E26B5006321CD /* Poppins-SemiBold.ttf */,
+				9FE25481282E26B6006321CD /* Poppins-Thin.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		9FE5394428338F9C00C77570 /* Supporting Class */ = {
+			isa = PBXGroup;
+			children = (
+				9FE5394528338FBA00C77570 /* UPCarouselFlowLayout.swift */,
+			);
+			path = "Supporting Class";
 			sourceTree = "<group>";
 		};
 		9FF8D979280D646E009E8438 /* Screens */ = {
@@ -440,6 +569,7 @@
 		9FF8D986280D67A0009E8438 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				9FE25479282E269A006321CD /* Poppins */,
 				9FF8D987280D67A6009E8438 /* Mulish */,
 			);
 			path = Fonts;
@@ -531,15 +661,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE25483282E27E0006321CD /* Poppins-Black.ttf in Resources */,
+				9FE25484282E27E0006321CD /* Poppins-Bold.ttf in Resources */,
+				9FE25485282E27E0006321CD /* Poppins-ExtraBold.ttf in Resources */,
+				9FE539412833837600C77570 /* SubcriptionPlanCell.xib in Resources */,
+				9FE25486282E27E0006321CD /* Poppins-ExtraLight.ttf in Resources */,
+				9FE25487282E27E0006321CD /* Poppins-Light.ttf in Resources */,
+				9FE25488282E27E0006321CD /* Poppins-Medium.ttf in Resources */,
+				9FE25489282E27E0006321CD /* Poppins-Regular.ttf in Resources */,
+				9FE2548A282E27E0006321CD /* Poppins-SemiBold.ttf in Resources */,
+				9FE2548B282E27E0006321CD /* Poppins-Thin.ttf in Resources */,
+				9FE2546D282E23DB006321CD /* Mulish-Regular.ttf in Resources */,
+				9FE2546E282E23DB006321CD /* Mulish-Bold.ttf in Resources */,
+				9FE2546F282E23DB006321CD /* Mulish-Medium.ttf in Resources */,
+				9FE53931283233B300C77570 /* MemberInviteCell.xib in Resources */,
+				9FE25470282E23DB006321CD /* Mulish-Light.ttf in Resources */,
+				9FE25471282E23DB006321CD /* Mulish-ExtraBold.ttf in Resources */,
+				9FE25472282E23DB006321CD /* Mulish-SemiBold.ttf in Resources */,
 				9F7A4601281A82C200F1BD94 /* Listing_Home.storyboard in Resources */,
 				9FF8D983280D6504009E8438 /* WalkThroughCell.xib in Resources */,
+				9FE53936283362EF00C77570 /* DropDownCell.xib in Resources */,
+				9FE539282832216000C77570 /* MemberInvite.storyboard in Resources */,
 				9F9A0BD92817CC640092B9AE /* Authentication.storyboard in Resources */,
 				9F873994280E79AD00A28CC9 /* Localizable.strings in Resources */,
 				9F7A45FE281A81BE00F1BD94 /* Trading_Home.storyboard in Resources */,
 				9F5E0FC32800054C00DDFC7D /* LaunchScreen.storyboard in Resources */,
+				9FA24770282CFACA00BEA3A7 /* AddressListCell.xib in Resources */,
 				9F254168281A700100443C65 /* QC_Home.storyboard in Resources */,
+				9FACC4DE282B85FF0024284B /* UserProfile.storyboard in Resources */,
 				9F873989280E702D00A28CC9 /* MenuCell.xib in Resources */,
 				9F5E0FC02800054C00DDFC7D /* Assets.xcassets in Resources */,
+				9F391722282A4F3B00AD2DE1 /* AadhaarVerification.storyboard in Resources */,
 				9FD257A828226B4F00D9AF45 /* LanguageCell.xib in Resources */,
 				9F5E0FBE2800051D00DDFC7D /* Main.storyboard in Resources */,
 				9F25415F281A646800443C65 /* Home.storyboard in Resources */,
@@ -596,9 +748,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F5E0FBB2800051D00DDFC7D /* ViewController.swift in Sources */,
+				9F391726282A533000AD2DE1 /* AadhaarVC.swift in Sources */,
+				9FE25468282E1CEC006321CD /* UserNameLabel.swift in Sources */,
 				9F8739A0280E8B5400A28CC9 /* SettingVC.swift in Sources */,
+				9FA2476B282CFA8F00BEA3A7 /* AddressVC.swift in Sources */,
 				9F9A0BDC2817CF460092B9AE /* LoginVC.swift in Sources */,
+				9FE25491282E3154006321CD /* SubtitleLightLabel.swift in Sources */,
+				9FACC4DB282B7E040024284B /* AadhaarVerificationSuccessVC.swift in Sources */,
 				9FFC9BB62823AF2F009A6F84 /* VerificationVC.swift in Sources */,
+				9FE2546B282E1E2A006321CD /* AR-Extension+Font.swift in Sources */,
+				9FE53935283362EF00C77570 /* DropDownCell.swift in Sources */,
 				9FD2579F2822688E00D9AF45 /* ChooseLanguageVC.swift in Sources */,
 				9F0B2B5D2800406F003F97B9 /* AppEnvironment.swift in Sources */,
 				9F5E0FB72800051D00DDFC7D /* AppDelegate.swift in Sources */,
@@ -607,19 +766,32 @@
 				9F8574A4280D7A990054AAA6 /* HomeVC.swift in Sources */,
 				9FB923692823939400A30B85 /* AR-Extension+Button.swift in Sources */,
 				9FF8D97B280D649E009E8438 /* WalkThroughVC.swift in Sources */,
+				9FACC4E1282B89830024284B /* UserProfileVC.swift in Sources */,
 				9FF8D982280D6504009E8438 /* WalkThroughCell.swift in Sources */,
 				9F254162281A668500443C65 /* SelectApplicationVC.swift in Sources */,
+				9FE539392833643000C77570 /* AddMemberInviteVC.swift in Sources */,
+				9F2D693D282535CC00FAA593 /* ReferralCodeVC.swift in Sources */,
+				9FE2548E282E2EF1006321CD /* HeadingLabel.swift in Sources */,
 				9F873988280E702D00A28CC9 /* MenuCell.swift in Sources */,
 				9FD257A728226B4F00D9AF45 /* LanguageCell.swift in Sources */,
 				9F25416D281A771200443C65 /* Tab.swift in Sources */,
 				9F8739A3280E92BC00A28CC9 /* BaseVC.swift in Sources */,
+				9F391729282A5CDC00AD2DE1 /* AadharOtpVerificationVC.swift in Sources */,
+				9F39171F282A416C00AD2DE1 /* AR_Shadow_View_with_Round_Cornor.swift in Sources */,
 				9F85749D280D6F630054AAA6 /* View+Extension.swift in Sources */,
+				9FA2476F282CFACA00BEA3A7 /* AddressListCell.swift in Sources */,
 				9F87399D280E87AB00A28CC9 /* MainTabBarVC.swift in Sources */,
+				9F39171C282A3F8D00AD2DE1 /* EmailVC.swift in Sources */,
 				9FB9236528238E1800A30B85 /* AR_Primary_Button.swift in Sources */,
 				9F5E0FB92800051D00DDFC7D /* SceneDelegate.swift in Sources */,
+				9FE539402833837600C77570 /* SubcriptionPlanCell.swift in Sources */,
+				9F39172C282A5EA600AD2DE1 /* AR_Shadow_View_Cornor.swift in Sources */,
+				9FE53930283233B300C77570 /* MemberInviteCell.swift in Sources */,
 				9F8574A0280D72450054AAA6 /* Color+Extension.swift in Sources */,
 				9F9A0BE22817D2490092B9AE /* AR-Extenstion+Storyboard.swift in Sources */,
 				9F9A0BDF2817CFFA0092B9AE /* AR-Extension+View.swift in Sources */,
+				9FE5392C283224D800C77570 /* MemberInviteVC.swift in Sources */,
+				9FE5394628338FBA00C77570 /* UPCarouselFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

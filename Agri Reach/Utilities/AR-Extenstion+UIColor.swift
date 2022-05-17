@@ -13,6 +13,14 @@ extension UIColor {
     }
     static var primaryColor  : UIColor { return UIColor.colorWithHexString("#2B2F5C")}
     
+    static var lightGrayColor  : UIColor { return UIColor.colorWithHexString("#F4F4F4")}
+    
+    static var DefaultTextColor : UIColor {UIColor.init(named: "DefaultTextColor") ?? UIColor.red }
+    
+    static var GrayColor : UIColor {UIColor.init(named: "GrayColor") ?? UIColor.red }
+    
+
+    
     static var ColorWhite                               : UIColor { return  UIColor.colorFromHex(hex: 0xffffff) }
     static var ColorThemeOrange                         : UIColor { return  UIColor.colorFromHex(hex: 0xff7936) }
     static var ColorThemeBlue                           : UIColor { return  UIColor.colorFromHex(hex: 0x36bcff) }

@@ -8,7 +8,12 @@
 import UIKit
 
 extension UIView {
-    
+       func roundCorners(corners: UIRectCorner, radius: CGFloat) {
+            let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+            let mask = CAShapeLayer()
+            mask.path = path.cgPath
+            layer.mask = mask
+    }
     func applyCornerRadius(backgrround : UIColor = .white , cornerRadius : CGFloat? = nil, borderColor : UIColor? = nil , borderWidth : CGFloat? = nil) {
         
         //For button corner radius
@@ -36,13 +41,16 @@ extension UIView {
     }
     
     
-    func applyShadow(color: UIColor = .clear, opacity: Float = 0.2, offSet: CGSize, radius: CGFloat = 1, scale: Bool = true,cornorRadius : CGFloat) {
+    func applyShadow(color: UIColor = .clear, opacity: Float = 0.2, offSet: CGSize, radius: CGFloat = 1, scale: Bool = true,cornorRadius : CGFloat,borderWidth : CGFloat = 0.0,borderColor : UIColor = .clear,backgroundColor :UIColor = .white) {
         layer.masksToBounds = false
         layer.shadowColor = color.cgColor
         layer.shadowOpacity = opacity
         layer.shadowOffset = offSet
         layer.shadowRadius = radius
         layer.cornerRadius = cornorRadius
+        layer.borderWidth = borderWidth
+        layer.borderColor = borderColor.withAlphaComponent(0.3).cgColor
+        layer.backgroundColor = backgroundColor.cgColor
 
         layer.shadowPath = UIBezierPath(rect: self.bounds).cgPath
         layer.shouldRasterize = true

@@ -10,7 +10,7 @@ import Localize_Swift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    static var shared : AppDelegate = AppDelegate()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -50,3 +50,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate {
+    func overrideApplicationThemeStyle() {
+        if #available(iOS 13.0, *) {
+
+            UIApplication.shared.keyWindow?.overrideUserInterfaceStyle = .light
+        } else {
+        }
+    }
+}

@@ -27,7 +27,7 @@ class VerificationVC: UIViewController {
         
         let storyboard = LocationEnableVC.instantiate(fromAppStoryboard: .Authentication)
         storyboard.modalPresentationStyle = .overCurrentContext
-        navigationController?.present(storyboard, animated: true, completion: {
+        navigationController?.present(storyboard, animated: false, completion: {
             
         })
 

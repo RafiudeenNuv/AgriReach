@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Mulish-Light.ttf">
+            <string>Mulish-Light</string>
+        </array>
+        <array key="Mulish-Regular.ttf">
+            <string>Mulish-Regular</string>
+        </array>
+        <array key="Mulish-SemiBold.ttf">
+            <string>Mulish-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--AadhaarVC-->
+        <scene sceneID="RcV-HF-51G">
+            <objects>
+                <viewController storyboardIdentifier="AadhaarVC" id="kVw-tE-2tx" customClass="AadhaarVC" customModule="Agri_Reach" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d7x-bp-mfy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ayk-W0-ayl">
+                                <rect key="frame" x="0.0" y="44" width="414" height="60"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5dW-3B-fV4">
+                                        <rect key="frame" x="30" y="15" width="233.5" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3f-JO-Zyl">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="3z8-Yh-zjl"/>
+                                                    <constraint firstAttribute="width" constant="30" id="ICD-E6-6py"/>
+                                                </constraints>
+                                                <state key="normal" image="left-arrow-black"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you have referral code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1m9-an-qbk">
+                                                <rect key="frame" x="38" y="0.0" width="195.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="5dW-3B-fV4" firstAttribute="centerY" secondItem="Ayk-W0-ayl" secondAttribute="centerY" id="5TE-hd-ddz"/>
+                                    <constraint firstItem="5dW-3B-fV4" firstAttribute="leading" secondItem="Ayk-W0-ayl" secondAttribute="leading" constant="30" id="PmD-D1-jWo"/>
+                                    <constraint firstAttribute="height" constant="60" id="fZ5-wI-2AU"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="MBu-sy-pbt">
+                                <rect key="frame" x="29" y="179" width="356" height="508"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eUI-xJ-M5C">
+                                        <rect key="frame" x="90.5" y="0.0" width="175" height="175"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aadhaar-icon" translatesAutoresizingMaskIntoConstraints="NO" id="NE9-KH-UoM">
+                                                <rect key="frame" x="0.0" y="0.0" width="175" height="175"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="NE9-KH-UoM" firstAttribute="leading" secondItem="eUI-xJ-M5C" secondAttribute="leading" id="7XT-oc-x2A"/>
+                                            <constraint firstAttribute="trailing" secondItem="NE9-KH-UoM" secondAttribute="trailing" id="Get-GL-hMw"/>
+                                            <constraint firstItem="NE9-KH-UoM" firstAttribute="top" secondItem="eUI-xJ-M5C" secondAttribute="top" id="LhK-dH-WLf"/>
+                                            <constraint firstAttribute="height" constant="175" id="VJO-wd-AtB"/>
+                                            <constraint firstAttribute="width" constant="175" id="hpD-Cq-Lsa"/>
+                                            <constraint firstAttribute="bottom" secondItem="NE9-KH-UoM" secondAttribute="bottom" id="wY8-wp-jUV"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="slv-f4-Ml0">
+                                        <rect key="frame" x="0.0" y="215" width="356" height="203"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nha-UK-4r0">
+                                                <rect key="frame" x="0.0" y="0.0" width="356" height="203"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eYs-sD-Kyh">
+                                                        <rect key="frame" x="0.0" y="0.0" width="356" height="93"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOCUMNET TYPE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8O-X1-TRF">
+                                                                <rect key="frame" x="0.0" y="0.0" width="356" height="23"/>
+                                                                <fontDescription key="fontDescription" name="Mulish-SemiBold" family="Mulish" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NbF-gG-Z74" customClass="AR_Shadow_View_with_Round_Cornor" customModule="Agri_Reach" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="33" width="356" height="60"/>
+                                                                <subviews>
+                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Aadhaar Card" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2jx-qW-wqC">
+                                                                        <rect key="frame" x="20" y="15" width="281" height="30"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="30" id="miF-hR-paD"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                    </textField>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Keyboard arrow down" translatesAutoresizingMaskIntoConstraints="NO" id="XYS-XE-fVq">
+                                                                        <rect key="frame" x="311" y="15" width="30" height="30"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="30" id="DF4-jc-YCs"/>
+                                                                            <constraint firstAttribute="height" constant="30" id="rFo-Us-M7m"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="trailing" secondItem="XYS-XE-fVq" secondAttribute="trailing" constant="15" id="6qu-Ye-2I2"/>
+                                                                    <constraint firstItem="2jx-qW-wqC" firstAttribute="centerY" secondItem="NbF-gG-Z74" secondAttribute="centerY" id="8TI-x5-Cq6"/>
+                                                                    <constraint firstItem="XYS-XE-fVq" firstAttribute="centerY" secondItem="2jx-qW-wqC" secondAttribute="centerY" id="Itu-tK-IaU"/>
+                                                                    <constraint firstAttribute="height" constant="60" id="Z76-j3-fUd"/>
+                                                                    <constraint firstItem="2jx-qW-wqC" firstAttribute="leading" secondItem="NbF-gG-Z74" secondAttribute="leading" constant="20" symbolic="YES" id="hx9-oA-TUS"/>
+                                                                    <constraint firstItem="XYS-XE-fVq" firstAttribute="leading" secondItem="2jx-qW-wqC" secondAttribute="trailing" constant="10" id="iBh-px-WKR"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6B8-iH-DBu">
+                                                        <rect key="frame" x="0.0" y="113" width="356" height="90"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENTER AADHAAR NUMBER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pt8-az-OhM">
+                                                                <rect key="frame" x="0.0" y="0.0" width="356" height="20"/>
+                                                                <fontDescription key="fontDescription" name="Mulish-SemiBold" family="Mulish" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Myk-C9-Qlb" customClass="AR_Shadow_View_with_Round_Cornor" customModule="Agri_Reach" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="30" width="356" height="60"/>
+                                                                <subviews>
+                                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="12 digit Aadhaar Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j07-sK-S00">
+                                                                        <rect key="frame" x="20" y="15" width="311" height="30"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="30" id="Ghd-kR-1E8"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                    </textField>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone" translatesAutoresizingMaskIntoConstraints="NO" id="tkR-4k-GZR">
+                                                                        <rect key="frame" x="341" y="15" width="0.0" height="30"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" id="3Ob-kU-gEA"/>
+                                                                            <constraint firstAttribute="height" constant="30" id="IAr-t2-Ayf"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="j07-sK-S00" firstAttribute="centerY" secondItem="Myk-C9-Qlb" secondAttribute="centerY" id="72O-fC-0po"/>
+                                                                    <constraint firstAttribute="height" constant="60" id="Qx3-nE-c2v"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="tkR-4k-GZR" secondAttribute="trailing" constant="15" id="Xl4-uP-4Yr"/>
+                                                                    <constraint firstItem="tkR-4k-GZR" firstAttribute="leading" secondItem="j07-sK-S00" secondAttribute="trailing" constant="10" id="bMN-bt-h65"/>
+                                                                    <constraint firstItem="tkR-4k-GZR" firstAttribute="centerY" secondItem="j07-sK-S00" secondAttribute="centerY" id="dQS-3G-60B"/>
+                                                                    <constraint firstItem="j07-sK-S00" firstAttribute="leading" secondItem="Myk-C9-Qlb" secondAttribute="leading" constant="20" symbolic="YES" id="pxp-Dj-Iqn"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="nha-UK-4r0" secondAttribute="trailing" id="BAX-1a-Jnd"/>
+                                            <constraint firstItem="nha-UK-4r0" firstAttribute="leading" secondItem="slv-f4-Ml0" secondAttribute="leading" id="DmZ-D8-7eH"/>
+                                            <constraint firstItem="nha-UK-4r0" firstAttribute="top" secondItem="slv-f4-Ml0" secondAttribute="top" id="dcP-mc-Dba"/>
+                                            <constraint firstAttribute="bottom" secondItem="nha-UK-4r0" secondAttribute="bottom" id="z4o-e2-DcH"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upv-49-wYN" customClass="AR_Primary_Button" customModule="Agri_Reach" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="458" width="356" height="50"/>
+                                        <color key="backgroundColor" name="primaryColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="o1l-BG-o1K"/>
+                                        </constraints>
+                                        <state key="normal" title="NEXT">
+                                            <color key="titleColor" name="ButtonFontColor"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="slv-f4-Ml0" secondAttribute="trailing" id="A8m-ib-DSA"/>
+                                    <constraint firstAttribute="trailing" secondItem="slv-f4-Ml0" secondAttribute="trailing" id="BZJ-9Z-bsu"/>
+                                    <constraint firstItem="upv-49-wYN" firstAttribute="leading" secondItem="MBu-sy-pbt" secondAttribute="leading" id="aOl-iJ-ZLp"/>
+                                    <constraint firstAttribute="trailing" secondItem="upv-49-wYN" secondAttribute="trailing" id="axV-0U-1Ny"/>
+                                    <constraint firstItem="slv-f4-Ml0" firstAttribute="leading" secondItem="MBu-sy-pbt" secondAttribute="leading" id="hln-02-Myu"/>
+                                    <constraint firstItem="slv-f4-Ml0" firstAttribute="leading" secondItem="MBu-sy-pbt" secondAttribute="leading" id="jhF-WF-jzv"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="U6L-qY-bG7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MBu-sy-pbt" firstAttribute="width" secondItem="d7x-bp-mfy" secondAttribute="width" multiplier="0.86" id="104-0D-byL"/>
+                            <constraint firstItem="Ayk-W0-ayl" firstAttribute="leading" secondItem="U6L-qY-bG7" secondAttribute="leading" id="DTL-vW-eaa"/>
+                            <constraint firstItem="U6L-qY-bG7" firstAttribute="trailing" secondItem="Ayk-W0-ayl" secondAttribute="trailing" id="HUJ-br-DWP"/>
+                            <constraint firstItem="Ayk-W0-ayl" firstAttribute="top" secondItem="U6L-qY-bG7" secondAttribute="top" id="V9q-Cj-Jqe"/>
+                            <constraint firstItem="MBu-sy-pbt" firstAttribute="top" secondItem="Ayk-W0-ayl" secondAttribute="bottom" constant="75" id="dsO-Az-NQ1"/>
+                            <constraint firstItem="MBu-sy-pbt" firstAttribute="centerX" secondItem="d7x-bp-mfy" secondAttribute="centerX" id="ePB-YT-obO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3J7-4x-9CH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eoo-aJ-bDv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2287" y="565"/>
+        </scene>
+        <!--Aadhar Otp VerificationVC-->
+        <scene sceneID="dIG-JA-hkC">
+            <objects>
+                <viewController storyboardIdentifier="AadharOtpVerificationVC" id="Rw6-Zv-n8x" customClass="AadharOtpVerificationVC" customModule="Agri_Reach" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U4Q-aC-s3K">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipY-Wi-rqn">
+                                <rect key="frame" x="0.0" y="44" width="414" height="60"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HXs-RJ-gy2">
+                                        <rect key="frame" x="30" y="15" width="215.5" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDv-78-BnK">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30" id="dIO-LY-3gS"/>
+                                                    <constraint firstAttribute="height" constant="30" id="klN-xC-TKW"/>
+                                                </constraints>
+                                                <state key="normal" image="left-arrow-black"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify Aadhaar Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3a-20-ciB">
+                                                <rect key="frame" x="38" y="0.0" width="177.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1p0-TS-jFJ"/>
+                                    <constraint firstItem="HXs-RJ-gy2" firstAttribute="leading" secondItem="ipY-Wi-rqn" secondAttribute="leading" constant="30" id="4h2-oc-pO6"/>
+                                    <constraint firstItem="HXs-RJ-gy2" firstAttribute="centerY" secondItem="ipY-Wi-rqn" secondAttribute="centerY" id="tjY-N5-fa9"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="MtL-84-KCV">
+                                <rect key="frame" x="29" y="179" width="356" height="511"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oqw-kq-zfx">
+                                        <rect key="frame" x="90.5" y="0.0" width="175" height="175"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verification-logo" translatesAutoresizingMaskIntoConstraints="NO" id="9TX-C7-6FL">
+                                                <rect key="frame" x="0.0" y="0.0" width="175" height="175"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="175" id="37C-KS-f6V"/>
+                                            <constraint firstAttribute="width" constant="175" id="F3O-3m-SHU"/>
+                                            <constraint firstItem="9TX-C7-6FL" firstAttribute="top" secondItem="Oqw-kq-zfx" secondAttribute="top" id="GCr-Aq-fne"/>
+                                            <constraint firstItem="9TX-C7-6FL" firstAttribute="leading" secondItem="Oqw-kq-zfx" secondAttribute="leading" id="jLS-Ze-kbF"/>
+                                            <constraint firstAttribute="trailing" secondItem="9TX-C7-6FL" secondAttribute="trailing" id="lKj-cu-mbm"/>
+                                            <constraint firstAttribute="bottom" secondItem="9TX-C7-6FL" secondAttribute="bottom" id="qlr-H9-4su"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YAt-2j-G6c">
+                                        <rect key="frame" x="27.5" y="205" width="301" height="66"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify Aadhaar Mobile Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTE-JS-UCX">
+                                                <rect key="frame" x="28" y="0.0" width="245.5" height="21"/>
+                                                <fontDescription key="fontDescription" name="Mulish-Regular" family="Mulish" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the last 3 digits of your Aadhaar linked mobile number" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8LI-3h-jWZ">
+                                                <rect key="frame" x="0.0" y="31" width="301" height="35"/>
+                                                <fontDescription key="fontDescription" name="Mulish-Regular" family="Mulish" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LuT-YT-edo">
+                                        <rect key="frame" x="0.0" y="301" width="356" height="70"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="VpY-P1-Tyd">
+                                                <rect key="frame" x="53" y="10" width="250" height="60"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRz-IQ-MJk" customClass="AR_Shadow_View_Cornor" customModule="Agri_Reach" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="70" height="60"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HG6-yL-nsn">
+                                                                <rect key="frame" x="8" y="15" width="54" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="30" id="3Ab-gH-g2v"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="70" id="0RW-nm-U8B"/>
+                                                            <constraint firstAttribute="trailing" secondItem="HG6-yL-nsn" secondAttribute="trailing" constant="8" id="1Wi-YY-wqF"/>
+                                                            <constraint firstItem="HG6-yL-nsn" firstAttribute="centerX" secondItem="yRz-IQ-MJk" secondAttribute="centerX" id="2qH-UG-Hsp"/>
+                                                            <constraint firstAttribute="height" constant="60" id="9cs-Uo-iBb"/>
+                                                            <constraint firstItem="HG6-yL-nsn" firstAttribute="centerY" secondItem="yRz-IQ-MJk" secondAttribute="centerY" id="JsS-QY-UiK"/>
+                                                            <constraint firstItem="HG6-yL-nsn" firstAttribute="leading" secondItem="yRz-IQ-MJk" secondAttribute="leading" constant="8" id="seQ-xm-MKI"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kth-V7-PKM" customClass="AR_Shadow_View_Cornor" customModule="Agri_Reach" customModuleProvider="target">
+                                                        <rect key="frame" x="90" y="0.0" width="70" height="60"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XAk-Pk-cgb">
+                                                                <rect key="frame" x="8" y="15" width="54" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="30" id="eB7-f4-avp"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="70" id="BMe-qL-nc1"/>
+                                                            <constraint firstAttribute="height" constant="60" id="Boe-or-UjM"/>
+                                                            <constraint firstItem="XAk-Pk-cgb" firstAttribute="centerX" secondItem="kth-V7-PKM" secondAttribute="centerX" id="KZZ-y4-1re"/>
+                                                            <constraint firstItem="XAk-Pk-cgb" firstAttribute="leading" secondItem="kth-V7-PKM" secondAttribute="leading" constant="8" id="UPa-6V-UDI"/>
+                                                            <constraint firstAttribute="trailing" secondItem="XAk-Pk-cgb" secondAttribute="trailing" constant="8" id="fNQ-4p-LBk"/>
+                                                            <constraint firstItem="XAk-Pk-cgb" firstAttribute="centerY" secondItem="kth-V7-PKM" secondAttribute="centerY" id="z7f-cv-jlz"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4YS-3Z-DJZ" customClass="AR_Shadow_View_Cornor" customModule="Agri_Reach" customModuleProvider="target">
+                                                        <rect key="frame" x="180" y="0.0" width="70" height="60"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aMH-YO-fxP">
+                                                                <rect key="frame" x="8" y="15" width="54" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="30" id="8qO-Sp-DQm"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="60" id="a9k-IV-du7"/>
+                                                            <constraint firstAttribute="width" constant="70" id="dOK-ej-DgW"/>
+                                                            <constraint firstItem="aMH-YO-fxP" firstAttribute="leading" secondItem="4YS-3Z-DJZ" secondAttribute="leading" constant="8" id="pR2-kG-DpV"/>
+                                                            <constraint firstItem="aMH-YO-fxP" firstAttribute="centerX" secondItem="4YS-3Z-DJZ" secondAttribute="centerX" id="q20-Wm-ArB"/>
+                                                            <constraint firstItem="aMH-YO-fxP" firstAttribute="centerY" secondItem="4YS-3Z-DJZ" secondAttribute="centerY" id="tue-aE-Xnk"/>
+                                                            <constraint firstAttribute="trailing" secondItem="aMH-YO-fxP" secondAttribute="trailing" constant="8" id="wVP-xo-7Ga"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="VpY-P1-Tyd" secondAttribute="bottom" id="0Wx-Bz-Cll"/>
+                                            <constraint firstItem="VpY-P1-Tyd" firstAttribute="centerX" secondItem="LuT-YT-edo" secondAttribute="centerX" id="7Ag-PN-RXp"/>
+                                            <constraint firstAttribute="height" constant="70" id="vFB-Hf-Dht"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQT-qr-RH7" customClass="AR_Primary_Button" customModule="Agri_Reach" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="401" width="336" height="50"/>
+                                        <color key="backgroundColor" name="primaryColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="BfT-PW-vQf"/>
+                                        </constraints>
+                                        <state key="normal" title="VERIFY">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="verificaionBtn:" destination="Rw6-Zv-n8x" eventType="touchUpInside" id="EeP-lk-vGx"/>
+                                        </connections>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Yqa-nL-rvb">
+                                        <rect key="frame" x="68" y="481" width="220.5" height="30"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="d6Q-d8-xvy">
+                                                <rect key="frame" x="0.0" y="0.0" width="220.5" height="30"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Didn’t receive the code?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RN-DF-kxF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="163.5" height="30"/>
+                                                        <fontDescription key="fontDescription" name="Mulish-Light" family="Mulish" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoZ-LL-sMt">
+                                                        <rect key="frame" x="168.5" y="0.0" width="52" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <state key="normal" title="Resend"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="LuT-YT-edo" secondAttribute="trailing" id="GVi-Ps-rZa"/>
+                                    <constraint firstItem="LuT-YT-edo" firstAttribute="leading" secondItem="MtL-84-KCV" secondAttribute="leading" id="GbJ-fE-xyZ"/>
+                                    <constraint firstItem="MQT-qr-RH7" firstAttribute="leading" secondItem="MtL-84-KCV" secondAttribute="leading" constant="10" id="fsz-I9-F82"/>
+                                    <constraint firstAttribute="trailing" secondItem="MQT-qr-RH7" secondAttribute="trailing" constant="10" id="kAv-zF-Odc"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3eX-uu-RwB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MtL-84-KCV" firstAttribute="width" secondItem="U4Q-aC-s3K" secondAttribute="width" multiplier="0.86" id="7Lx-En-Cy5"/>
+                            <constraint firstItem="MtL-84-KCV" firstAttribute="centerX" secondItem="U4Q-aC-s3K" secondAttribute="centerX" id="B8j-KW-rtb"/>
+                            <constraint firstItem="3eX-uu-RwB" firstAttribute="trailing" secondItem="ipY-Wi-rqn" secondAttribute="trailing" id="QAy-qa-nrh"/>
+                            <constraint firstItem="ipY-Wi-rqn" firstAttribute="leading" secondItem="3eX-uu-RwB" secondAttribute="leading" id="VUK-Lh-O2t"/>
+                            <constraint firstItem="ipY-Wi-rqn" firstAttribute="top" secondItem="3eX-uu-RwB" secondAttribute="top" id="e4s-5X-UFT"/>
+                            <constraint firstItem="MtL-84-KCV" firstAttribute="top" secondItem="ipY-Wi-rqn" secondAttribute="bottom" constant="75" id="lmD-Kc-7xx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="BFw-hg-Gcl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4M5-ML-4Jw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3101" y="565"/>
+        </scene>
+        <!--Aadhaar Verification SuccessVC-->
+        <scene sceneID="i8q-hm-Qc0">
+            <objects>
+                <viewController storyboardIdentifier="AadhaarVerificationSuccessVC" id="Vzq-bg-NxE" customClass="AadhaarVerificationSuccessVC" customModule="Agri_Reach" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ehi-5d-Cxf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Cq-KB-oyD" customClass="R_UIView" customModule="Agri_Reach" customModuleProvider="target">
+                                <rect key="frame" x="47.5" y="244" width="319" height="408"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="qX1-K2-aLu">
+                                        <rect key="frame" x="20" y="40" width="279" height="348"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mKg-zw-S79">
+                                                <rect key="frame" x="74.5" y="0.0" width="130" height="130"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green-tick" translatesAutoresizingMaskIntoConstraints="NO" id="XDp-uA-BcO">
+                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="130" id="0ZD-Nz-a1B"/>
+                                                    <constraint firstAttribute="trailing" secondItem="XDp-uA-BcO" secondAttribute="trailing" id="42d-45-gz5"/>
+                                                    <constraint firstAttribute="height" constant="130" id="4Iy-5T-0kC"/>
+                                                    <constraint firstItem="XDp-uA-BcO" firstAttribute="leading" secondItem="mKg-zw-S79" secondAttribute="leading" id="c0T-G7-i7P"/>
+                                                    <constraint firstAttribute="bottom" secondItem="XDp-uA-BcO" secondAttribute="bottom" id="dl3-m7-gkf"/>
+                                                    <constraint firstItem="XDp-uA-BcO" firstAttribute="top" secondItem="mKg-zw-S79" secondAttribute="top" id="rNC-LJ-Ggq"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verified!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpz-G9-cef">
+                                                <rect key="frame" x="105.5" y="155" width="68" height="22.5"/>
+                                                <fontDescription key="fontDescription" name="Mulish-SemiBold" family="Mulish" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have successfully verfied your KYC Aadhaar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ma4-zg-cVt">
+                                                <rect key="frame" x="12" y="202.5" width="255" height="30.5"/>
+                                                <fontDescription key="fontDescription" name="Mulish-Regular" family="Mulish" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fZ5-OL-crI">
+                                                <rect key="frame" x="0.0" y="258" width="279" height="90"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fo-Hj-MYG" customClass="AR_Primary_Button" customModule="Agri_Reach" customModuleProvider="target">
+                                                        <rect key="frame" x="12" y="0.0" width="255" height="50"/>
+                                                        <color key="backgroundColor" name="primaryColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="ELg-Na-rLj"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Next">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="1fo-Hj-MYG" firstAttribute="leading" secondItem="fZ5-OL-crI" secondAttribute="leading" constant="12" id="FYb-pF-V4v"/>
+                                                    <constraint firstAttribute="trailing" secondItem="1fo-Hj-MYG" secondAttribute="trailing" constant="12" id="Vuj-Jk-llJ"/>
+                                                    <constraint firstAttribute="height" constant="90" id="fJ7-Xu-ne0"/>
+                                                    <constraint firstItem="1fo-Hj-MYG" firstAttribute="top" secondItem="fZ5-OL-crI" secondAttribute="top" id="s7o-QQ-qOe"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="fZ5-OL-crI" firstAttribute="leading" secondItem="qX1-K2-aLu" secondAttribute="leading" id="Cxh-Z6-Dmp"/>
+                                            <constraint firstAttribute="trailing" secondItem="fZ5-OL-crI" secondAttribute="trailing" id="mji-DS-bGZ"/>
+                                            <constraint firstItem="ma4-zg-cVt" firstAttribute="leading" secondItem="qX1-K2-aLu" secondAttribute="leading" constant="12" id="sEy-wD-gi6"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="qX1-K2-aLu" firstAttribute="top" secondItem="5Cq-KB-oyD" secondAttribute="top" constant="40" id="2We-nX-Pyc"/>
+                                    <constraint firstItem="qX1-K2-aLu" firstAttribute="leading" secondItem="5Cq-KB-oyD" secondAttribute="leading" constant="20" id="kBn-U6-HyQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="qX1-K2-aLu" secondAttribute="bottom" constant="20" id="lCB-Un-3PC"/>
+                                    <constraint firstAttribute="trailing" secondItem="qX1-K2-aLu" secondAttribute="trailing" constant="20" id="qxV-7R-ZC2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hS5-Ie-kQm"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.80145012839999996" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5Cq-KB-oyD" firstAttribute="centerX" secondItem="ehi-5d-Cxf" secondAttribute="centerX" id="1lS-MK-TDG"/>
+                            <constraint firstItem="5Cq-KB-oyD" firstAttribute="width" secondItem="ehi-5d-Cxf" secondAttribute="width" multiplier="0.77" id="ZQW-Pz-Btv"/>
+                            <constraint firstItem="5Cq-KB-oyD" firstAttribute="centerY" secondItem="ehi-5d-Cxf" secondAttribute="centerY" id="uhy-lA-Zt5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6cp-5B-cOt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="540.57971014492762" y="565.17857142857144"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="1fo-Hj-MYG">
+            <size key="intrinsicContentSize" width="32" height="30"/>
+        </designable>
+        <designable name="MQT-qr-RH7">
+            <size key="intrinsicContentSize" width="50" height="30"/>
+        </designable>
+        <designable name="upv-49-wYN">
+            <size key="intrinsicContentSize" width="39" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Keyboard arrow down" width="96" height="96"/>
+        <image name="aadhaar-icon" width="520" height="520"/>
+        <image name="green-tick" width="420" height="420"/>
+        <image name="iPhone" width="96" height="96"/>
+        <image name="left-arrow-black" width="96" height="96"/>
+        <image name="verification-logo" width="520" height="520"/>
+        <namedColor name="ButtonFontColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="primaryColor">
+            <color red="0.16899999976158142" green="0.18400000035762787" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

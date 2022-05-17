@@ -15,6 +15,9 @@ enum AppStoryboard : String {
     case QC_Home
     case Trading_Home
     case Listing_Home
+    case AadhaarVerification
+    case UserProfile
+    case MemberInvite
     
     var instance : UIStoryboard {
         

@@ -22,15 +22,12 @@ class LoginVC: UIViewController {
 
     }
     override func viewWillAppear(_ animated: Bool) {
-        if ontime == -1{
         super.viewWillAppear(true)
         
-        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let home = storyBoard.instantiateViewController(withIdentifier: "WalkThroughVC") as! WalkThroughVC
-            ontime = 1
-        navigationController?.present(home, animated: true, completion: {
-            
-        })
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            let storyboard = WalkThroughVC.instantiate(fromAppStoryboard: .Home)
+            storyboard.modalPresentationStyle = .overCurrentContext
+            self.navigationController?.present(storyboard, animated: true)
         }
     }
     func setupUI(){
@@ -58,7 +55,7 @@ class LoginVC: UIViewController {
 
         
         
-        let storyboard = Tab.instantiate(fromAppStoryboard: .Home)
+        let storyboard = VerificationVC.instantiate(fromAppStoryboard: .Authentication)
         navigationController?.pushViewController(storyboard, animated: true)
         
     }

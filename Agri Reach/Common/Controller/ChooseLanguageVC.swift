@@ -48,6 +48,12 @@ extension ChooseLanguageVC: UITableViewDelegate,UITableViewDataSource{
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            let storyboard = LoginVC.instantiate(fromAppStoryboard: .Authentication)
+            self.navigationController?.pushViewController(storyboard, animated: true)
+        }
+        
     }
     
     
