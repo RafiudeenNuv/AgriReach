@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A51BF3728361B0000432F45 /* ARServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51BF3628361B0000432F45 /* ARServiceHelper.swift */; };
+		6A51BF3928361E1F00432F45 /* ARServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51BF3828361E1F00432F45 /* ARServiceManager.swift */; };
+		6A51BF3B28361ED900432F45 /* CommonServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51BF3A28361ED900432F45 /* CommonServiceHelper.swift */; };
+		6A51BF3D283623CE00432F45 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51BF3C283623CE00432F45 /* BaseRequest.swift */; };
+		6A51BF422836479400432F45 /* ARUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51BF412836479400432F45 /* ARUIButton.swift */; };
 		9F0B2B5D2800406F003F97B9 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B2B5C2800406F003F97B9 /* AppEnvironment.swift */; };
 		9F25415F281A646800443C65 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F25415E281A646800443C65 /* Home.storyboard */; };
 		9F254162281A668500443C65 /* SelectApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F254161281A668500443C65 /* SelectApplicationVC.swift */; };
@@ -92,6 +97,11 @@
 /* Begin PBXFileReference section */
 		19C933A7E7826018932A7F42 /* Pods-Agri Reach.prod release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agri Reach.prod release.xcconfig"; path = "Target Support Files/Pods-Agri Reach/Pods-Agri Reach.prod release.xcconfig"; sourceTree = "<group>"; };
 		2E07F63A8A7529D97F26A54A /* Pods-Agri Reach.qa debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agri Reach.qa debug.xcconfig"; path = "Target Support Files/Pods-Agri Reach/Pods-Agri Reach.qa debug.xcconfig"; sourceTree = "<group>"; };
+		6A51BF3628361B0000432F45 /* ARServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARServiceHelper.swift; sourceTree = "<group>"; };
+		6A51BF3828361E1F00432F45 /* ARServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARServiceManager.swift; sourceTree = "<group>"; };
+		6A51BF3A28361ED900432F45 /* CommonServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonServiceHelper.swift; sourceTree = "<group>"; };
+		6A51BF3C283623CE00432F45 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		6A51BF412836479400432F45 /* ARUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARUIButton.swift; sourceTree = "<group>"; };
 		79D043FF93FE919CBA566C3F /* Pods-Agri Reach.prod debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agri Reach.prod debug.xcconfig"; path = "Target Support Files/Pods-Agri Reach/Pods-Agri Reach.prod debug.xcconfig"; sourceTree = "<group>"; };
 		7B0413493E37EAA147692BE1 /* Pods_Agri_Reach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agri_Reach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEF8DDE906DDD1E07AB15D1 /* Pods-Agri Reach.dev release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agri Reach.dev release.xcconfig"; path = "Target Support Files/Pods-Agri Reach/Pods-Agri Reach.dev release.xcconfig"; sourceTree = "<group>"; };
@@ -195,6 +205,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A51BF3E2836240800432F45 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A51BF3828361E1F00432F45 /* ARServiceManager.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		6A51BF3F2836241900432F45 /* ServiceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6A51BF3628361B0000432F45 /* ARServiceHelper.swift */,
+				6A51BF3A28361ED900432F45 /* CommonServiceHelper.swift */,
+			);
+			path = ServiceHelper;
+			sourceTree = "<group>";
+		};
+		6A51BF402836246F00432F45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A51BF3C283623CE00432F45 /* BaseRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		74000BCF8C64AA9A13D016E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,9 +251,9 @@
 			isa = PBXGroup;
 			children = (
 				9F5E0FB52800051D00DDFC7D /* Agri Reach */,
-				9F5E0FB42800051D00DDFC7D /* Products */,
-				CE2884D5FCEA230B97B2CC29 /* Pods */,
 				74000BCF8C64AA9A13D016E3 /* Frameworks */,
+				CE2884D5FCEA230B97B2CC29 /* Pods */,
+				9F5E0FB42800051D00DDFC7D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -233,25 +268,29 @@
 		9F5E0FB52800051D00DDFC7D /* Agri Reach */ = {
 			isa = PBXGroup;
 			children = (
-				9FE5394428338F9C00C77570 /* Supporting Class */,
-				9FB9236328238DA000A30B85 /* Custom */,
-				9F9A0BD22817CBFF0092B9AE /* Common */,
-				9F9A0BCF2817CB1E0092B9AE /* Utilities */,
-				9F9A0BCA2817CAA70092B9AE /* Trading */,
-				9F9A0BC42817CA4A0092B9AE /* Listing */,
-				9F9A0BBF2817C9BD0092B9AE /* QC */,
-				9F85749B280D6F550054AAA6 /* Extensions */,
-				9FF8D97E280D64DA009E8438 /* View */,
-				9FF8D979280D646E009E8438 /* Screens */,
-				9F0B2B5B28004057003F97B9 /* Core */,
+				9F5E0FC42800054C00DDFC7D /* Info.plist */,
 				9F5E0FB62800051D00DDFC7D /* AppDelegate.swift */,
 				9F5E0FB82800051D00DDFC7D /* SceneDelegate.swift */,
 				9F5E0FBA2800051D00DDFC7D /* ViewController.swift */,
-				9F5E0FBC2800051D00DDFC7D /* Main.storyboard */,
+				6A51BF412836479400432F45 /* ARUIButton.swift */,
 				9F5E0FBF2800054C00DDFC7D /* Assets.xcassets */,
+				9F9A0BD22817CBFF0092B9AE /* Common */,
+				9F0B2B5B28004057003F97B9 /* Core */,
+				9FB9236328238DA000A30B85 /* Custom */,
+				9F85749B280D6F550054AAA6 /* Extensions */,
 				9F5E0FC12800054C00DDFC7D /* LaunchScreen.storyboard */,
-				9F5E0FC42800054C00DDFC7D /* Info.plist */,
+				9F9A0BC42817CA4A0092B9AE /* Listing */,
 				9F873996280E79AD00A28CC9 /* Localizable.strings */,
+				9F5E0FBC2800051D00DDFC7D /* Main.storyboard */,
+				6A51BF402836246F00432F45 /* Model */,
+				9F9A0BBF2817C9BD0092B9AE /* QC */,
+				9FF8D979280D646E009E8438 /* Screens */,
+				6A51BF3F2836241900432F45 /* ServiceHelper */,
+				6A51BF3E2836240800432F45 /* ServiceManager */,
+				9FE5394428338F9C00C77570 /* Supporting Class */,
+				9F9A0BCA2817CAA70092B9AE /* Trading */,
+				9F9A0BCF2817CB1E0092B9AE /* Utilities */,
+				9FF8D97E280D64DA009E8438 /* View */,
 			);
 			path = "Agri Reach";
 			sourceTree = "<group>";
@@ -430,16 +469,8 @@
 				9F9A0BD62817CC440092B9AE /* View */,
 				9F9A0BD52817CC340092B9AE /* Controller */,
 				9F9A0BD42817CC2B0092B9AE /* ViewModel */,
-				9F9A0BD32817CC250092B9AE /* Model */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		9F9A0BD32817CC250092B9AE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		9F9A0BD42817CC2B0092B9AE /* ViewModel */ = {
@@ -757,6 +788,7 @@
 				9FACC4DB282B7E040024284B /* AadhaarVerificationSuccessVC.swift in Sources */,
 				9FFC9BB62823AF2F009A6F84 /* VerificationVC.swift in Sources */,
 				9FE2546B282E1E2A006321CD /* AR-Extension+Font.swift in Sources */,
+				6A51BF3D283623CE00432F45 /* BaseRequest.swift in Sources */,
 				9FE53935283362EF00C77570 /* DropDownCell.swift in Sources */,
 				9FD2579F2822688E00D9AF45 /* ChooseLanguageVC.swift in Sources */,
 				9F0B2B5D2800406F003F97B9 /* AppEnvironment.swift in Sources */,
@@ -784,6 +816,7 @@
 				9F39171C282A3F8D00AD2DE1 /* EmailVC.swift in Sources */,
 				9FB9236528238E1800A30B85 /* AR_Primary_Button.swift in Sources */,
 				9F5E0FB92800051D00DDFC7D /* SceneDelegate.swift in Sources */,
+				6A51BF422836479400432F45 /* ARUIButton.swift in Sources */,
 				9FE539402833837600C77570 /* SubcriptionPlanCell.swift in Sources */,
 				9F39172C282A5EA600AD2DE1 /* AR_Shadow_View_Cornor.swift in Sources */,
 				9FE53930283233B300C77570 /* MemberInviteCell.swift in Sources */,
@@ -791,7 +824,10 @@
 				9F9A0BE22817D2490092B9AE /* AR-Extenstion+Storyboard.swift in Sources */,
 				9F9A0BDF2817CFFA0092B9AE /* AR-Extension+View.swift in Sources */,
 				9FE5392C283224D800C77570 /* MemberInviteVC.swift in Sources */,
+				6A51BF3928361E1F00432F45 /* ARServiceManager.swift in Sources */,
 				9FE5394628338FBA00C77570 /* UPCarouselFlowLayout.swift in Sources */,
+				6A51BF3B28361ED900432F45 /* CommonServiceHelper.swift in Sources */,
+				6A51BF3728361B0000432F45 /* ARServiceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -908,7 +944,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Prod;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Prod Debug";
 		};
@@ -986,7 +1022,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Prod;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Prod Release";
 		};
@@ -1070,7 +1106,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = QA;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "QA Debug";
 		};
@@ -1148,7 +1184,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = QA;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "QA Release";
 		};
@@ -1288,7 +1324,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Dev Debug";
 		};
@@ -1310,7 +1346,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = "Dev Release";
 		};
