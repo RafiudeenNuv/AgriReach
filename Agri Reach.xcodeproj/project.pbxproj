@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A0E497B2837907F00728090 /* ARUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E497A2837907F00728090 /* ARUITextField.swift */; };
 		6A51BF3728361B0000432F45 /* ARServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51BF3628361B0000432F45 /* ARServiceHelper.swift */; };
 		6A51BF3928361E1F00432F45 /* ARServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51BF3828361E1F00432F45 /* ARServiceManager.swift */; };
 		6A51BF3B28361ED900432F45 /* CommonServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A51BF3A28361ED900432F45 /* CommonServiceHelper.swift */; };
@@ -97,6 +98,7 @@
 /* Begin PBXFileReference section */
 		19C933A7E7826018932A7F42 /* Pods-Agri Reach.prod release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agri Reach.prod release.xcconfig"; path = "Target Support Files/Pods-Agri Reach/Pods-Agri Reach.prod release.xcconfig"; sourceTree = "<group>"; };
 		2E07F63A8A7529D97F26A54A /* Pods-Agri Reach.qa debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agri Reach.qa debug.xcconfig"; path = "Target Support Files/Pods-Agri Reach/Pods-Agri Reach.qa debug.xcconfig"; sourceTree = "<group>"; };
+		6A0E497A2837907F00728090 /* ARUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARUITextField.swift; sourceTree = "<group>"; };
 		6A51BF3628361B0000432F45 /* ARServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARServiceHelper.swift; sourceTree = "<group>"; };
 		6A51BF3828361E1F00432F45 /* ARServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARServiceManager.swift; sourceTree = "<group>"; };
 		6A51BF3A28361ED900432F45 /* CommonServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonServiceHelper.swift; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 				9F5E0FB82800051D00DDFC7D /* SceneDelegate.swift */,
 				9F5E0FBA2800051D00DDFC7D /* ViewController.swift */,
 				6A51BF412836479400432F45 /* ARUIButton.swift */,
+				6A0E497A2837907F00728090 /* ARUITextField.swift */,
 				9F5E0FBF2800054C00DDFC7D /* Assets.xcassets */,
 				9F9A0BD22817CBFF0092B9AE /* Common */,
 				9F0B2B5B28004057003F97B9 /* Core */,
@@ -800,6 +803,7 @@
 				9FF8D97B280D649E009E8438 /* WalkThroughVC.swift in Sources */,
 				9FACC4E1282B89830024284B /* UserProfileVC.swift in Sources */,
 				9FF8D982280D6504009E8438 /* WalkThroughCell.swift in Sources */,
+				6A0E497B2837907F00728090 /* ARUITextField.swift in Sources */,
 				9F254162281A668500443C65 /* SelectApplicationVC.swift in Sources */,
 				9FE539392833643000C77570 /* AddMemberInviteVC.swift in Sources */,
 				9F2D693D282535CC00FAA593 /* ReferralCodeVC.swift in Sources */,
